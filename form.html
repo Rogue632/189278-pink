@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Пинк. Конкурс</title>
+  </head>
+  <body>
+    <header class="page-header">
+      <a class="logo" href="index.html">
+        <img src="#" alt="">
+      </a>
+      <nav class="page-header__nav">
+        <ul class="page-header__list">
+          <li class="page-header__item"><a class="page-header__link" href="index.html">главная</a></li>
+          <li class="page-header__item"><a class="page-header__link" href="photo.html">фотографии</a></li>
+          <li class="page-header__item"><a class="page-header__link">конкурс</a></li>
+          <li class="page-header__item"><a class="page-header__link" href="#">html academy</a></li>
+        </ul>
+        <button class="toggle" type="button">
+          <span class="toggle__control"></span>
+        </button>
+      </nav>
+      <h1 class="page-title">Конкурс на самое безбашенное путешествие с ПИНК</h1>
+    </header>
+
+    <main class="form-content">
+      <div class="form-content__lead">Поделитесь своей историей и получите шанс выиграть ценный приз - 1000 миль на вашу бонусную карту!</div>
+
+                <!-- Main-form -->
+
+      <form class="main-form" action="#" method="post">
+
+                <!-- user-info -->
+
+        <section class="main-form__user-info">
+          <label for="user-surname">фамилия:</label>
+          <input type="text" name="surname" id="user-surname" placeholder="Укажите фамилию *" required>
+          <label for="user-name">имя:</label>
+          <input type="text" name="name" id="user-name" placeholder="Укажите имя *" required>
+          <label for="user-patronymic">отчество</label>
+          <input type="text" name="patronymic" id="user-patronymic" placeholder="Ну и отчество тоже">
+        </section>
+
+                <!-- Options -->
+
+        <section class="main-form__options">
+          <h2 class="main-form__options-title">ваши безбашенные достижения в путешествии</h2>
+          <div class="main-form__options-btn">
+            <input type="checkbox" name="select-option" id="option-1" checked>
+            <label for="option-1">Сделал селфи с акулой</label>
+            <input type="checkbox" name="select-option" id="option-2" checked>
+            <label for="option-2">Обгорел на пляже</label>
+            <input type="checkbox" name="select-option" id="option-3">
+            <label for="option-3">Видел Чака Норриса</label>
+            <input type="checkbox" name="select-option" id="option-4">
+            <label for="option-4">Накупил сувениров</label>
+            <input type="checkbox" name="select-option" id="option-5" checked>
+            <label for="option-5">Удержал башню</label>
+            <input type="checkbox" name="select-option" id="option-6">
+            <label for="option-6">Разгромил отель</label>
+          </div>
+        </section>
+
+                <!-- User-contacts -->
+
+        <section class="main-form__user-contacts">
+          <label for="user-phone">номер телефона</label>
+          <input type="text" name="phone" id="user-phone" placeholder="Номер, пожалуйста">
+          <label for="user-mail">адрес почты</label>
+          <input type="text" name="mail" id="user-mail" placeholder="Введите почту *" required>
+        </section>
+
+                <!-- Select-app -->
+
+        <section class="main-form__select-app">
+          <h2 class="main-form__select-app-title">с каким приложением путешествовали?</h2>
+          <div class="main-form__select-app-btn">
+            <input type="radio" name="ios-app" id="select-ios" checked>
+            <label for="select-ios">Pink для IOS</label>
+            <input type="radio" name="android-app" id="select-android">
+            <label for="select-android">Pink для Android</label>
+            <input type="radio" name="windows-app" id="select-windows">
+            <label for="select-windows">Windows Phone</label>
+          </div>
+        </section>
+
+                <!-- User-note -->
+
+        <section class="main-form__user-note">
+          <label for="user-note-text">опишите свои эмоции</label>
+          <textarea name="note-text" id="user-note-text" placeholder="Можно прям в красках, не стесняясь в выражениях"></textarea>
+        </section>
+
+        <button class="main-form__submit-btn" value="отправить форму"></button>
+        <p class="main-form__hint"><span>*</span> - обязательные поля</p>
+      </form>
+
+    </main>
+
+    <footer class="page-footer">
+      <a class="page-footer__logo" href="index.html"><img src="#" alt=""></a>
+      <section class="page-footer__social social-btns">
+        <a class="social-btns__btn" href="#"></a>
+        <a class="social-btns__btn" href="#"></a>
+        <a class="social-btns__btn" href="#"></a>
+      </section>
+      <div class="page-footer__copyright">
+        <span class="page-footer__copyright-text">Разработано</span>
+        <a href="https://htmlacademy.ru/" class="page-footer__copyright-link"><img src="#" alt=""></a></div>
+    </footer>
+
+                <!-- Complete-popup -->
+
+      <section class="form-content__popup complete-popup">
+        <h3 class="complete-popup__title">Ваша заявка отправлена</h3>
+        <p class="complete-popup__text">Спасибо за ваше участие, ваша заявка уже поступила к нам. В ближайшее время мы рассмотрим ее и оповестим вас.</p>
+        <button class="complete-popup__btn" type="button" value="закрыть окно"></button>
+      </section>
+
+                <!-- Error-popup -->
+
+      <section class="form-content__popup error-popup">
+        <h3 class="error-popup__title">Что-то пошло не так!</h3>
+        <p class="error-popup__text">Проверьте поля, выделенные красным, скорее всего вы забыли их заполнить</p>
+        <button class="error-popup__btn error-popup__btn" type="button" value="ok"></button>
+      </section>
+
+  </body>
+</html>
