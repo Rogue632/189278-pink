@@ -11,23 +11,22 @@
       <a class="logo">
         <img src="#" alt="">
       </a>
-      <nav class="page-header__nav">
-        <ul class="page-header__list">
-          <li class="page-header__item"><a class="page-header__link">главная</a></li>
-          <li class="page-header__item"><a class="page-header__link" href="photo.html">фотографии</a></li>
-          <li class="page-header__item"><a class="page-header__link" href="form.html">конкурс</a></li>
-          <li class="page-header__item"><a class="page-header__link" href="#">html academy</a></li>
+      <nav class="main-nav">
+        <ul class="main-nav__list">
+          <li class="main-nav__item"><a class="main-nav__link main-nav__link--active">главная</a></li>
+          <li class="main-nav__item"><a class="main-nav__link" href="photo.html">фотографии</a></li>
+          <li class="main-nav__item"><a class="main-nav__link" href="form.html">конкурс</a></li>
+          <li class="main-nav__item"><a class="main-nav__link" href="https://htmlacademy.ru/">html academy</a></li>
         </ul>
-        <button class="toggle" type="button">
-          <span class="toggle__control"></span>
-        </button>
       </nav>
-      <img class="page-header__img" src="#" alt="">
+      <div class="page-header__intro">
+        <img class="page-header__img" src="#" alt="">
+      </div>
 
                 <!-- Download -->
 
       <section class="page-header__download  download">
-        <a class="download__itunes" href="#"></a>
+        <a class="download__itunes" href="https://itunes.apple.com/"></a>
         <ul class="download__inner">
           <li class="download__apple"><a class="download__link" href="#"></a></li>
           <li class="download__android"><a class="download__link" href="#"></a></li>
@@ -42,89 +41,145 @@
 
                 <!-- Lead -->
 
-      <div class="page-content__lead">
-        <b class="page-content__caption">Устали от серости мегаполиса?</b>
-        <b class="page-content__caption">Нам есть, что предложить вам!</b>
+      <div class="intro--font-light">
+        <p class="page-content__promo">Устали от серости мегаполиса? Нам есть, что предложить вам!</p>
       </div>
 
                 <!-- Features -->
 
-      <div class="page-content__features">
-        <h2 class="page-content__subtitle">Поднимает настроение</h2>
-        <p class="page-content__text">Приложение позволит вам победить осеннюю хандру и депрессию буквально в несколько кликов!</p>
-        <h2 class="page-content__subtitle">Меняет мир вокруг</h2>
-        <p class="page-content__text">Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы усилить эффект</p>
-        <h2 class="page-content__subtitle">Заводит новых друзей</h2>
-        <p class="page-content__text">Ставьте лайки, комментируйте, делитесь фотографиями с друзьями и заводите новых</p>
+      <div class="features">
+        <div class="features__inner">
+          <h2 class="features__subtitle">Поднимает настроение</h2>
+          <p class="features__text">Приложение позволит вам победить осеннюю хандру и депрессию буквально в несколько кликов!</p>
+        </div>
+        <div class="features__inner">
+          <h2 class="features__subtitle">Меняет мир вокруг</h2>
+          <p class="features__text">Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы усилить эффект</p>
+        </div>
+        <div class="features__inner">
+          <h2 class="features__subtitle">Заводит новых друзей</h2>
+          <p class="features__text">Ставьте лайки, комментируйте, делитесь фотографиями с друзьями и заводите новых</p>
+        </div>
+        <img class="features__img" src="#" alt="">
       </div>
-      <img class="page-content__img" src="#" alt="">
 
                 <!-- Recalls -->
 
-      <div class="page-content__recalls">
-        <div class="page-content__recall">
-          <b class="page-content__recall-author">Николай Петров</b>
-          <p class="page-content__recall-text">"Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А ещё я познакомился со своей будущей женой в комментариях к выложенной фотографии!"</p>
-        </div>
+      <div class="sliders  sliders--recalls">
+        <blockquote class="slider">
+          <cite class="slider__author">Николай Петров</cite>
+          <p class="slider__text">"Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А ещё я познакомился со своей будущей женой в комментариях к выложенной фотографии!"</p>
+        </blockquote>
 
                 <!-- Hide recalls-->
 
-        <div class="page-content__recall">
-          <b class="page-content__recall-author"></b>
-          <p class="page-content__recall-text"></p>
-        </div>
-        <div class="page-content__recall">
-          <b class="page-content__recall-author"></b>
-          <p class="page-content__recall-text"></p>
-        </div>
+        <blockquote class="slider">
+          <cite class="slider__author"></cite>
+          <p class="slider__text"></p>
+        </blockquote>
+        <blockquote class="slider">
+          <cite class="slider__author"></cite>
+          <p class="slider__text"></p>
+        </blockquote>
 
                 <!-- slider controls -->
 
-        <div class="slider-controls">
-          <div class="slider-controls_btn"></div>
-          <div class="slider-controls_btn"></div>
-          <div class="slider-controls_btn"></div>
+        <div class="slider__controls">
+          <div class="slider__btn"></div>
+          <div class="slider__btn"></div>
+          <div class="slider__btn"></div>
         </div>
       </div>
 
                 <!-- Tariffs -->
 
-      <div class="page-content__tariffs tariffs">
+      <div class="price-plan">
 
-        <div class="tariffs__item">
-          <div class="tariffs__title"><b class="tariffs__name">стандарт</b><b class="tariffs__price">3,99 USD</b></div>
-          <div class="tariffs__options">
-            <span class="tariffs__options-item">розовый фильтр</span>
-            <span class="tariffs__options-item">смайлики</span>
-            <span class="tariffs__options-item">комментарии</span>
-          </div>
+        <div class="price-plan__item">
+          <table>
+            <tr>
+              <th>
+                <b class="price-plan__title">стандарт</b>
+                <b class="price-plan__price">3,99 usd</b>
+              </th>
+            </tr>
+            <tr>
+              <td>
+                <span class="price-plan__option">розовый фильтр</span>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <span class="price-plan__option">смайлики</span>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <span class="price-plan__option">комментарии</span>
+              </td>
+            </tr>
+          </table>
         </div>
 
                 <!-- Hide tariffs -->
 
-        <div class="tariffs__item">
-          <div class="tariffs__title"><b class="tariffs__name"></b><b class="tariffs__price"></b></div>
-          <div class="tariffs__options">
-            <span class="tariffs__options-item"></span>
-            <span class="tariffs__options-item"></span>
-            <span class="tariffs__options-item"></span>
-          </div>
+        <div class="price-plan__item">
+          <table>
+            <tr>
+              <th>
+                <b class="price-plan__title"></b>
+                <b class="price-plan__price"></b>
+              </th>
+            </tr>
+            <tr>
+              <td>
+                <span class="price-plan__option"></span>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <span class="price-plan__option"></span>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <span class="price-plan__option"></span>
+              </td>
+            </tr>
+          </table>
         </div>
-        <div class="tariffs__item">
-          <div class="tariffs__title"><b class="tariffs__name"></b><b class="tariffs__price"></b></div>
-          <div class="tariffs__options">
-            <span class="tariffs__options-item"></span>
-            <span class="tariffs__options-item"></span>
-            <span class="tariffs__options-item"></span>
-          </div>
+        <div class="price-plan__item">
+          <table>
+            <tr>
+              <th>
+                <b class="price-plan__title"></b>
+                <b class="price-plan__price"></b>
+              </th>
+            </tr>
+            <tr>
+              <td>
+                <span class="price-plan__option"></span>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <span class="price-plan__option"></span>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <span class="price-plan__option"></span>
+              </td>
+            </tr>
+          </table>
         </div>
 
                 <!-- slider controls -->
 
-        <div class="slider-controls">
-          <div class="slider-controls_btn"></div>
-          <div class="slider-controls_btn"></div>
-          <div class="slider-controls_btn"></div>
+        <div class="slider__controls">
+          <div class="slider__btn"></div>
+          <div class="slider__btn"></div>
+          <div class="slider__btn"></div>
         </div>
       </div>
 
@@ -134,20 +189,20 @@
 
                 <!-- Contacts -->
 
-      <section class="main-footer__contacts contacts">
-        <b class="contacts__title">Остались вопросы? Свяжитесь с нами!</b>
-        <div class="contacts__phone">
-          <b class="contacts__subtitle">Звоните:</b>
-          <span class="contacts__item">+7(812)555-66-66</span>
-        </div>
-        <div class="contacts__mail">
-          <b class="contacts__subtitle">Пишите:</b>
-          <span class="contacts__item">mail@htmlacademy.ru</span>
-        </div>
-        <div class="contacts__adress">
-          <b class="contacts__subtitle">Приезжайте в гости:</b>
-          <span class="contacts__item">ул.Большая Конюшенная, 19/8</span>
-        </div>
+      <section class="main-footer__contacts">
+        <p class="main-footer__title">Остались вопросы? Свяжитесь с нами!</p>
+        <dl class="main-footer__phone">
+          <dt class="main-footer__subtitle">Звоните:</dt>
+          <dd class="main-footer__item">+7(812)555-66-66</dd>
+        </dl>
+        <dl class="main-footer__mail">
+          <dt class="main-footer__subtitle">Пишите:</dt>
+          <dd class="main-footer__item">mail@htmlacademy.ru</dd>
+        </dl>
+        <dl class="main-footer__adress">
+          <dt class="main-footer__subtitle">Приезжайте в гости:</dt>
+          <dd class="main-footer__item">ул.Большая Конюшенная, 19/8</dd>
+        </dl>
       </section>
 
       <div class="main-footer__location"></div>

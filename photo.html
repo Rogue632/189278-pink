@@ -10,159 +10,168 @@
       <a class="logo" href="index.html">
         <img src="#" alt="">
       </a>
-      <nav class="page-header__nav">
-        <ul class="page-header__list">
-          <li class="page-header__item"><a class="page-header__link" href="index.html">главная</a></li>
-          <li class="page-header__item"><a class="page-header__link">фотографии</a></li>
-          <li class="page-header__item"><a class="page-header__link" href="form.html">конкурс</a></li>
-          <li class="page-header__item"><a class="page-header__link" href="#">html academy</a></li>
+      <nav class="main-nav">
+        <ul class="main-nav__list">
+          <li class="main-nav__item"><a class="main-nav__link" href="index.html">главная</a></li>
+          <li class="main-nav__item"><a class="main-nav__link  main-nav__link--active">фотографии</a></li>
+          <li class="main-nav__item"><a class="main-nav__link" href="form.html">конкурс</a></li>
+          <li class="main-nav__item"><a class="main-nav__link" href="https://htmlacademy.ru/">html academy</a></li>
         </ul>
-        <button class="toggle" type="button">
-          <span class="toggle__control"></span>
-        </button>
       </nav>
-      <h1 class="page-title">Фотографии пользователей</h1>
+      <div class="page-title__wrap">
+        <h1 class="page-title">Фотографии пользователей</h1>
+      </div>
     </header>
 
     <main class="photo-content">
-      <div class="photo-content__lead">Взгляните на фотографии, которые выкладывают пользователи! Видите, как не хватает ваших?</div>
+      <div class="intro">Взгляните на фотографии, которые выкладывают пользователи! Видите, как не хватает ваших?</div>
 
-                <!-- Photo -->
+                <!-- Gallery -->
 
-      <div class="photo-content__items">
+      <section class="gallery">
 
-                <!-- Photo-item , photo-of-day -->
+                <!-- gallery-item, photo-of-day -->
 
-        <section class="photo-content__item user-photo photo-of-day">
+        <article class="user-photo  user-photo--best">
           <a class="user-photo__image" href="#" ><img src="#" alt=""></a>
-          <div class="user-photo__descr">
-            <div class="user-photo__author">Анна</div>
-            <div class="user-photo__time">(5 минут назад)</div>
-            <div class="user-photo__comment">Прыгать или нет? Напишите в комментарии свой совет и смотрите прямую трансляцию в перископе, задавайте свои вопросы!</div>
-            <div class="user-photo__like-counter">нравится: 215</div>
-          </div>
-        </section>
+          <blockquote class="user-photo__descr">
+            <cite class="user-photo__author">Анна</cite>
+            <time class="user-photo__time">(5 минут назад)</time>
+            <p class="user-photo__comment">Прыгать или нет? Напишите в комментарии свой совет и смотрите прямую трансляцию в перископе, задавайте свои вопросы!</p>
+            <footer class="user-photo__like-counter">
+              <button class="user-photo__like-btn" type="button"></button>нравится: 215</footer>
+          </blockquote>
+        </article>
 
-                <!-- Photo-item -->
+                <!-- gallery-item -->
 
-        <section class="photo-content__item user-photo">
+        <article class="user-photo">
           <a href="#" class="user-photo__image"><img src="#" alt=""></a>
-          <div class="user-photo__descr">
-            <div class="user-photo__author">Левон</div>
-            <div class="user-photo__time">5 часов назад</div>
-            <div class="user-photo__comment">Вчера он на луну летал, сегодня в руки к нам попал.</div>
-            <div class="user-photo__like-counter">нравится: 356</div>
-          </div>
-        </section>
+          <blockquote class="user-photo__descr">
+            <cite class="user-photo__author">Левон</cite>
+            <time class="user-photo__time">5 часов назад</time>
+            <p class="user-photo__comment">Вчера он на луну летал, сегодня в руки к нам попал.</p>
+            <footer class="user-photo__like-counter">
+              <button class="user-photo__like-btn" type="button"></button>нравится: 356</footer>
+          </blockquote>
+        </article>
 
-                <!-- Photo-item -->
+                <!-- gallery-item -->
 
-        <section class="photo-content__item user-photo">
+        <article class="user-photo">
           <a href="#" class="user-photo__image"><img src="#" alt=""></a>
-          <div class="user-photo__descr">
-            <div class="user-photo__author">Антон</div>
-            <div class="user-photo__time">(12 часов назад)</div>
-            <div class="user-photo__comment">Соседи будут рады!</div>
-            <div class="user-photo__like-counter">нравится: 666</div>
-          </div>
-        </section>
+          <blockquote class="user-photo__descr">
+            <cite class="user-photo__author">Антон</cite>
+            <time class="user-photo__time">(12 часов назад)</time>
+            <p class="user-photo__comment">Соседи будут рады!</p>
+            <footer class="user-photo__like-counter">
+              <button class="user-photo__like-btn" type="button"></button>нравится: 666</footer>
+          </blockquote>
+        </article>
 
-                <!-- Photo-item -->
+                <!-- gallery-item -->
 
-        <section class="photo-content__item user-photo">
+        <article class="user-photo">
           <a href="#" class="user-photo__image"><img src="#" alt=""></a>
-          <div class="user-photo__descr">
-            <div class="user-photo__author">Борис</div>
-            <div class="user-photo__time">(20 часов назад)</div>
-            <div class="user-photo__comment">Здесь могла быть ваша цитата о высоком и вечном.</div>
-            <div class="user-photo__like-counter">нравится: 215</div>
-          </div>
-        </section>
+          <blockquote class="user-photo__descr">
+            <cite class="user-photo__author">Борис</cite>
+            <time class="user-photo__time">(20 часов назад)</time>
+            <p class="user-photo__comment">Здесь могла быть ваша цитата о высоком и вечном.</p>
+            <footer class="user-photo__like-counter">
+              <button class="user-photo__like-btn" type="button"></button>нравится: 215</footer>
+          </blockquote>
+        </article>
 
-                <!-- Photo-item -->
+                <!-- gallery-item -->
 
-        <section class="photo-content__item user-photo">
+        <article class="user-photo">
           <a href="#" class="user-photo__image"><img src="#" alt=""></a>
-          <div class="user-photo__descr">
-            <div class="user-photo__author">Сергей</div>
-            <div class="user-photo__time">(25 часов назад)</div>
-            <div class="user-photo__comment">Самая кубанская в мире!</div>
-            <div class="user-photo__like-counter">нравится: 4</div>
-          </div>
-        </section>
+          <blockquote class="user-photo__descr">
+            <cite class="user-photo__author">Сергей</cite>
+            <time class="user-photo__time">(25 часов назад)</time>
+            <p class="user-photo__comment">Самая кубанская в мире!</p>
+            <footer class="user-photo__like-counter">
+              <button class="user-photo__like-btn" type="button"></button>нравится: 4</footer>
+          </blockquote>
+        </article>
 
-                <!-- Photo-item -->
+                <!-- gallery-item -->
 
-        <section class="photo-content__item user-photo">
+        <article class="user-photo">
           <a href="#" class="user-photo__image"><img src="#" alt=""></a>
-          <div class="user-photo__descr">
-            <div class="user-photo__author">Максим</div>
-            <div class="user-photo__time">(40 часов назад)</div>
-            <div class="user-photo__comment">Где снег-то?</div>
-            <div class="user-photo__like-counter">нравится: 150</div>
-          </div>
-        </section>
+          <blockquote class="user-photo__descr">
+            <cite class="user-photo__author">Максим</cite>
+            <time class="user-photo__time">(40 часов назад)</time>
+            <p class="user-photo__comment">Где снег-то?</p>
+            <footer class="user-photo__like-counter">
+              <button class="user-photo__like-btn" type="button"></button>нравится: 150</footer>
+          </blockquote>
+        </article>
 
-                <!-- Photo-item -->
+                <!-- gallery-item -->
 
-        <section class="photo-content__item user-photo">
+        <article class="user-photo">
           <a href="#" class="user-photo__image"><img src="#" alt=""></a>
-          <div class="user-photo__descr">
-            <div class="user-photo__author">Надежда</div>
-            <div class="user-photo__time">(45 часов назад)</div>
-            <div class="user-photo__comment">Всем GM и взаимные лайки!</div>
-            <div class="user-photo__like-counter">нравится: 2560</div>
-          </div>
-        </section>
+          <blockquote class="user-photo__descr">
+            <cite class="user-photo__author">Надежда</cite>
+            <time class="user-photo__time">(45 часов назад)</time>
+            <p class="user-photo__comment">Всем GM и взаимные лайки!</p>
+            <footer class="user-photo__like-counter">
+              <button class="user-photo__like-btn" type="button"></button>нравится: 2560</footer>
+          </blockquote>
+        </article>
 
-      </div>
+      </section>
       <div class="photo-content__lead">Затмите их всех! Выкладывайте все, что накопилось в телефоне!</div>
 
                 <!-- Tools -->
 
-      <section class="photo-content__change-photo change-photo">
+      <form class="tools" action="#" method="post">
 
-        <div class="change-photo__display"></div>
-        <div class="change-photo__tools">
+        <div class="tools__display"></div>
+
+                <!-- Tools-items -->
+
+        <div class="tools__items">
 
                 <!-- crop -->
 
-          <div class="change-photo__tool">
-            <button class="change-photo__tool-btn" type="button"></button>
-            <div class="change-photo__tool-scale">
-              <div class="change-photo__tool-bar"></div>
-              <div class="change-photo__tool-toggle"></div>
+          <div class="tools__item">
+            <input type="radio" name="tool-tab" id="tool_crop">
+            <label for="tool_crop"></label>
+            <div class="tools__item-scale">
+              <div class="tools__item-bar"></div>
+              <div class="tools__item-toggle"></div>
             </div>
           </div>
 
                 <!-- fill -->
 
-          <div class="change-photo__tool">
-            <button class="change-photo__tool-btn" type="button"></button>
-            <div class="change-photo__tool-scale">
-              <div class="change-photo__tool-bar"></div>
-              <div class="change-photo__tool-toggle"></div>
+          <div class="tools__item">
+            <input type="radio" name="tool-tab" id="tool_fill">
+            <label for="tool_fill"></label>
+            <div class="tools__item-scale">
+              <div class="tools__item-bar"></div>
+              <div class="tools__item-toggle"></div>
             </div>
           </div>
 
                 <!-- contrast -->
 
-          <div class="change-photo__tool">
-            <button class="change-photo__tool-btn" type="button"></button>
-            <div class="change-photo__tool-scale">
-              <div class="change-photo__tool-bar"></div>
-              <div class="change-photo__tool-toggle"></div>
+          <div class="tools__item">
+            <input type="radio" name="tool-tab" id="tool_contrast">
+            <label for="tool_contrast"></label>
+            <div class="tools__item-scale">
+              <div class="tools__item-bar"></div>
+              <div class="tools__item-toggle"></div>
             </div>
           </div>
         </div>
 
-      </section>
-
                 <!-- change-photo btns -->
 
-      <form class="change-photo__buttons" action="#" method="post">
-        <button class="change-photo__buttons-submit"></button>
-        <button class="change-photo__buttons-reset" type="reset"></button>
+        <button class="tools__submit-btn" type="submit"></button>
+        <button class="tools__buttons-reset" type="reset"></button>
       </form>
 
     </main>
@@ -170,13 +179,14 @@
     <footer class="page-footer">
       <a class="page-footer__logo" href="index.html"><img src="#" alt=""></a>
       <section class="page-footer__social social-btns">
-        <a class="social-btns__btn" href="#"></a>
-        <a class="social-btns__btn" href="#"></a>
-        <a class="social-btns__btn" href="#"></a>
+        <a class="social-btn social-btn--twitter" href="#"></a>
+        <a class="social-btn social-btn--fb" href="#"></a>
+        <a class="social-btn social-btn--youtube" href="#"></a>
       </section>
       <div class="page-footer__copyright">
         <span class="page-footer__copyright-text">Разработано</span>
-        <a href="https://htmlacademy.ru/" class="page-footer__copyright-link"><img src="#" alt=""></a></div>
+        <a href="https://htmlacademy.ru/" class="page-footer__copyright-link"><img src="#" alt=""></a>
+      </div>
     </footer>
 
   </body>
