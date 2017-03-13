@@ -1,0 +1,17 @@
+@import "sass/global/fonts.scss";
+
+.user-photo__author {
+  @include user-photo-author-font;
+}
+
+.user-photo__time {
+  @include user-photo-time-font;
+}
+
+.user-photo__comment {
+  @include user-photo-comment-font;
+}
+
+.user-photo__like-counter {
+  @include user-photo-like-font;
+}
