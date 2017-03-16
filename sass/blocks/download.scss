@@ -1,14 +1,3 @@
-@import "sass/global/fonts.scss";
-
-.download {
-  @include download-font;
-}
-
-.download__itunes {
-  color: $download-color;
-  text-decoration: none;
-}
-
 .download__inner {
-  list-style: none;
+  @include list-style;
 }

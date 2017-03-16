@@ -2,13 +2,15 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>Пинк. Конкурс</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
   </head>
   <body>
     <header class="page-header">
-      <a class="logo" href="index.html">
-        <img src="img/logo-pink-white-mobile.svg" width="76" height="24" alt="PINK">
+      <a class="logo logo--header" href="index.html">
+        <img src="img/logo.svg" width="76" height="24" alt="PINK">
       </a>
       <nav class="main-nav">
         <ul class="main-nav__list">
@@ -18,13 +20,15 @@
           <li class="main-nav__item"><a class="main-nav__link" href="https://htmlacademy.ru/">html academy</a></li>
         </ul>
       </nav>
-      <div class="page-title__wrap">
-        <h1 class="page-title">Конкурс на самое безбашенное путешествие с ПИНК</h1>
+      <div class="page-intro">
+        <h1 class="page-intro__title">Конкурс на самое безбашенное путешествие с ПИНК</h1>
       </div>
     </header>
 
     <main class="form-content">
-      <div class="intro">Поделитесь своей историей и получите шанс выиграть ценный приз - 1000 миль на вашу бонусную карту!</div>
+      <div class="intro">
+        <p class="intro-text">Поделитесь своей историей и получите шанс выиграть ценный приз - 1000 миль на вашу бонусную карту!</p>
+      </div>
 
                 <!-- form -->
 
@@ -32,7 +36,7 @@
 
                 <!-- user-info -->
 
-        <fieldset class="form__item form__item--bg-white">
+        <fieldset class="form__fieldset form__item--bg-white">
           <div class="form__inner">
             <label class="form__subtitle" for="user-surname">фамилия:</label>
             <input class="form__subtitle-value" type="text" name="surname" id="user-surname" placeholder="Укажите фамилию *" required>
@@ -49,7 +53,7 @@
 
                 <!-- Options -->
 
-        <fieldset class="form__item form__item--bg-grey">
+        <fieldset class="form__fieldset form__item--bg-grey">
           <legend class="form__item-title">ваши безбашенные достижения в путешествии</legend>
           <div class="form__item-btns">
             <div class="form__inner">
@@ -81,7 +85,7 @@
 
                 <!-- User-contacts -->
 
-        <fieldset class="form__item form__item--bg-white">
+        <fieldset class="form__fieldset form__item--bg-white">
           <div class="form__inner">
             <label class="form__subtitle" for="user-phone">номер телефона</label>
             <input class="form__subtitle-value" type="tel" name="phone" id="user-phone" placeholder="Номер, пожалуйста" pattern="[0-9]{1}[0-9]{3}[0-9]{7}">
@@ -94,7 +98,7 @@
 
                 <!-- Select-app -->
 
-        <fieldset class="form__item form__item--bg-grey">
+        <fieldset class="form__fieldset form__item--bg-grey">
           <legend class="form__item-title">с каким приложением путешествовали?</legend>
           <div class="form__item-btns">
             <div class="form__inner">
@@ -114,7 +118,7 @@
 
                 <!-- User-note -->
 
-        <fieldset class="form__item form__item--bg-white">
+        <fieldset class="form__fieldset form__item--bg-white">
           <legend class="form__item-title">опишите свои эмоции</legend>
           <div class="form__inner">
             <textarea class="form__textarea" name="note-text" id="user-note-text" placeholder="Можно прям в красках, не стесняясь в выражениях"></textarea>
@@ -128,7 +132,7 @@
     </main>
 
     <footer class="page-footer">
-      <a class="page-footer__logo" href="index.html"><img src="img/footer-logo.svg" width="147" height="40" alt=""></a>
+      <a class="logo logo--footer" href="index.html"><img src="img/footer-logo.svg" width="147" height="40" alt=""></a>
       <section class="page-footer__social social-btns">
         <a class="social-btn social-btn--twitter" href="#"></a>
         <a class="social-btn social-btn--fb" href="#"></a>

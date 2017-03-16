@@ -2,13 +2,15 @@
 <html lang="ru">
   <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>Пинк. Фотографии</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
   </head>
   <body>
     <header class="page-header">
-      <a class="logo" href="index.html">
-        <img src="img/logo-pink-white-mobile.svg" width="76" height="24" alt="PINK">
+      <a class="logo logo--header" href="index.html">
+        <img src="img/logo.svg" width="76" height="24" alt="PINK">
       </a>
       <nav class="main-nav">
         <ul class="main-nav__list">
@@ -18,13 +20,15 @@
           <li class="main-nav__item"><a class="main-nav__link" href="https://htmlacademy.ru/">html academy</a></li>
         </ul>
       </nav>
-      <div class="page-title__wrap">
-        <h1 class="page-title">Фотографии пользователей</h1>
+      <div class="page-intro">
+        <h1 class="page-intro__title">Фотографии пользователей</h1>
       </div>
     </header>
 
     <main class="photo-content">
-      <div class="intro">Взгляните на фотографии, которые выкладывают пользователи! Видите, как не хватает ваших?</div>
+      <div class="intro">
+        <p class="intro__text">Взгляните на фотографии, которые выкладывают пользователи! Видите, как не хватает ваших?</p>
+      </div>
 
                 <!-- Gallery -->
 
@@ -179,7 +183,7 @@
     </main>
 
     <footer class="page-footer">
-      <a class="page-footer__logo" href="index.html"><img src="img/footer-logo.svg" width="147" height="40" alt=""></a>
+      <a class="logo logo--footer" href="index.html"><img src="img/footer-logo.svg" width="147" height="40" alt=""></a>
       <section class="page-footer__social social-btns">
         <a class="social-btn social-btn--twitter" href="#"></a>
         <a class="social-btn social-btn--fb" href="#"></a>

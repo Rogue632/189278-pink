@@ -1,0 +1,11 @@
+.main-nav {
+  /*display: none;*/
+  @include container;
+
+  background: $color-darkblue;
+  outline: 2px solid black;
+}
+
+.main-nav__list {
+  @include list-style;
+}

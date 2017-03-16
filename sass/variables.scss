@@ -1,116 +1,17 @@
-/*body*/
+//fonts
 
-$body-fw: 400;
-$body-fsize: 14px;
-$body-lh: 30px;
-$body-ff: "Open Sans", "Arial", sans-serif;
-$body-color: #283645;
+$font-weight-light: 300;
+$font-weight-normal: 400;
+$font-weight-bold: 700;
 
-/*page-header*/
+$font-size-small: 14px;
+$font-size-normal: 18px;
+$font-size-big: 24px;
 
-$page-header-bg: #2b3b4b;
-$page-header-bg-img: url("img/page-header-bg.jpg");
+$line-height-small: 24px;
+$line-height-normal: 28px;
 
-/*main-nav*/
-
-$main-nav-fw: 700;
-$main-nav-fsize: 18px;
-$main-nav-lh: 32px;
-$main-nav-color: #fff;
-
-/*page-title*/
-
-$page-title-fw: 300;
-$page-title-fs: 24px;
-$page-title-lh: 28px;
-$page-title-color: #fff;
-
-/*download*/
-
-$download-fw: 300;
-$download-fsize: 14px;
-$download-lh: 24px;
-$download-color: #fff;
-$download-apple: url("img/download-apple.svg");
-
-/*intro*/
-
-$intro-fw--l: 300;
-$intro-fs--l: 24px;
-$intro-lh--l: 28px;
-$intro-lh: 28px;
-$intro-color: #283645;
-$intro-fsize-s: 14px;
-$intro-lh-s: 30px;
-
-
-/*features*/
-
-$features-lh: 24px;
-$features-bg: #f2f2f2;
-$features-subtitle-fw: 700;
-$features-subtitle-fs: 18px;
-$features-subtitle-col: #000;
-
-/*sliders*/
-
-$slider-author-fw: 700;
-$slider-author-fs: 18px;
-$slider-author-color: #000;
-
-/*price-plan*/
-
-$price-plan-bg: #f2f2f2;
-$price-header-bg: #283645;
-$price-title-fw: 700;
-$price-title-fs: 18px;
-$price-title-color: #fff;
-$price-plan-price-fw: 300;
-$price-plan-price-fz: 24px;
-$price-plan-price-color: #fff;
-$price-plan-inner-bg: #fff;
-
-/*user-photo*/
-
-$user-photo-autor-fw: 700;
-$user-photo-autor-lh: 24px;
-$user-photo-time-fw: 300;
-$user-photo-time-fs: 12px;
-$user-photo-comment-lh: 24px;
-$user-photo-like-fs: 12px;
-$user-photo-like-lh: 24px;
-$user-photo-like-col: #d22856;
-
-/*form*/
-
-$form-subtitle-color: #d22856;
-$placeholder-color: #283645;
-$placeholder-fs: 18px;
-$placeholder-lh: 30px;
-$form-item-title-lh: 18px;
-$form-item-title-col: #d22856;
-$form-item-descr-fs: 18px;
-
-$popup-title-fw: 700;
-$popup-title-fs: 18px;
-$popup-title-lh: 24px;
-$popup-title-color: #000;
-$popup-text-lh: 24px;
-
-/*main-footer*/
-
-$main-footer-title-fw: 300;
-$main-footer-title-fs: 24px;
-$main-footer-title-lh: 28px;
-$main-footer-subtitle-fw: 700;
-$main-footer-subtitle-fs: 18px;
-$main-footer-subtitle-lh: 21px;
-$main-footer-item-fw: 300;
-$main-footer-item-fs: 24px;
-$main-footer-item-lh: 28px;
-$main-footer-item-color: #d22856;
-
-
-/*page-footer*/
-
-$page-footer-copy-lh: 18px;
+$color-white: #fff;
+$color-black: #000;
+$color-red: #d22856;
+$color-darkblue: #283645;
