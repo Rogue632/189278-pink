@@ -1,0 +1,14 @@
+@import "sass/global/fonts.scss";
+@import "sass/variables.scss";
+
+.main-footer__title {
+  @include main-footer-title-font;
+}
+
+.main-footer__subtitle {
+  @include main-footer-subtitle-font;
+}
+
+.main-footer__item {
+  @include main-footer-item-font;
+}

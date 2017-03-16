@@ -1,0 +1,9 @@
+@import "sass/global/fonts.scss";
+
+.features {
+  @include features-font;
+}
+
+.features__subtitle {
+  @include features-subt-font;
+}

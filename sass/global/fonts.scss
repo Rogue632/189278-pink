@@ -1,0 +1,144 @@
+/*body*/
+
+@mixin body-font {
+  font-weight: $body-fw;
+  font-size: $body-fsize;
+  line-height: $body-lh;
+  font-family: $body-ff;
+  color: $body-color;
+}
+
+
+/*main-nav*/
+
+@mixin main-nav-font {
+  font-weight: $main-nav-fw;
+  font-size: $main-nav-fsize;
+  line-height: $main-nav-lh;
+  text-transform: uppercase;
+}
+
+/*page-title*/
+
+@mixin page-title-font {
+  font-weight: $page-title-fw;
+  font-size: $page-title-fs;
+  line-height: $page-title-lh;
+  color: $page-title-color;
+}
+
+/*download*/
+
+@mixin download-font {
+  font-weight: $download-fw;
+  font-size: $download-fsize;
+  line-height: $download-lh;
+  color: $download-color;
+}
+
+/*intro*/
+
+@mixin intro--light-font {
+    font-weight: $intro-fw--l;
+    font-size: $intro-fs--l;
+    line-height: $intro-lh--l;
+}
+
+/*features*/
+
+@mixin features-font {
+  line-height: $features-lh;
+  background-color: $features-bg;
+}
+
+@mixin features-subt-font {
+  font-weight: $features-subtitle-fw;
+  font-size: $features-subtitle-fs;
+  color: $features-subtitle-col;
+}
+
+/*sliders*/
+
+@mixin slider-author-font {
+  font-weight: $slider-author-fw;
+  font-size: $slider-author-fs;
+  color: $slider-author-color;
+}
+
+/*price-plan*/
+
+@mixin price-title-font {
+  font-weight: $price-title-fw;
+  font-size: $price-title-fs;
+  color: $price-title-color;
+  text-transform: uppercase;
+}
+
+@mixin price-plan-price-font {
+  font-weight: $price-plan-price-fw;
+  font-size: $price-plan-price-fz;
+  color: $price-plan-price-color;
+}
+
+/*user-photo*/
+
+@mixin user-photo-author-font {
+  font-weight: $user-photo-autor-fw;
+  line-height: $user-photo-autor-lh;
+}
+
+@mixin user-photo-time-font {
+  font-weight: $user-photo-time-fw;
+  font-size: $user-photo-time-fs;
+}
+
+@mixin user-photo-comment-font {
+  line-height: $user-photo-comment-lh;
+}
+
+@mixin user-photo-like-font {
+  font-size: $user-photo-like-fs;
+  line-height: $user-photo-like-lh;
+  color: $user-photo-like-col;
+}
+
+/*form*/
+
+@mixin placeholder-font {
+  font-size: $placeholder-fs;
+  line-height: $placeholder-lh;
+  color: $placeholder-color;
+  opacity: 1;
+}
+
+@mixin popup-title-font {
+  font-weight: $popup-title-fw;
+  font-size: $popup-title-fs;
+  line-height: $popup-title-lh;
+  color: $popup-title-color;
+}
+
+/*main-footer*/
+
+@mixin main-footer-title-font {
+  font-weight: $main-footer-title-fw;
+  font-size: $main-footer-title-fs;
+  line-height: $main-footer-title-lh;
+}
+
+@mixin main-footer-subtitle-font {
+  font-weight: $main-footer-subtitle-fw;
+  font-size: $main-footer-subtitle-fs;
+  line-height: $main-footer-subtitle-lh;
+}
+
+@mixin main-footer-item-font {
+  font-weight: $main-footer-item-fw;
+  font-size: $main-footer-item-fs;
+  line-height: $main-footer-item-lh;
+  color: $main-footer-item-color;
+}
+
+@mixin page-footer-copy-font {
+  line-height: $page-footer-copy-lh;
+}

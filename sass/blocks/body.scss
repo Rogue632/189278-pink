@@ -1,0 +1,5 @@
+@import "sass/global/fonts.scss";
+
+body {
+  @include body-font;
+}
