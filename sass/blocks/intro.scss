@@ -1,13 +1,4 @@
-@import "sass/global/fonts.scss";
-
 .intro {
-  &--font-light {
-    @include intro--light-font;
-  }
-
-  &--font-small {
-    font-size: $intro-fsize-s;
-    line-height: $intro-lh-s;
-  }
+  @include container;
+  outline: 1px solid black;
 }
-

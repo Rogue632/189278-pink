@@ -1,0 +1,9 @@
+.page-header {
+  outline: 2px solid black;
+}
+
+.page-header__intro {
+  @include container;
+
+  background: url("../img/page-header-bg.jpg") no-repeat;
+}

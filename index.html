@@ -2,21 +2,33 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>HTML Academy: Пинк</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
   </head>
   <body>
 
     <header class="page-header">
-      <a class="logo">
-        <img src="img/logo-pink-white-mobile.svg" width="76" height="24" alt="PINK">
-      </a>
       <nav class="main-nav">
         <ul class="main-nav__list">
-          <li class="main-nav__item"><a class="main-nav__link main-nav__link--active">главная</a></li>
-          <li class="main-nav__item"><a class="main-nav__link" href="photo.html">фотографии</a></li>
-          <li class="main-nav__item"><a class="main-nav__link" href="form.html">конкурс</a></li>
-          <li class="main-nav__item"><a class="main-nav__link" href="https://htmlacademy.ru/">html academy</a></li>
+          <li class="main-nav__item">
+            <a class="logo  logo--header">
+              <img src="img/logo.svg" width="76" height="24" alt="PINK">
+            </a>
+          </li>
+          <li class="main-nav__item">
+            <a class="main-nav__link main-nav__link--active">главная</a>
+          </li>
+          <li class="main-nav__item">
+            <a class="main-nav__link" href="photo.html">фотографии</a>
+          </li>
+          <li class="main-nav__item">
+            <a class="main-nav__link" href="form.html">конкурс</a>
+          </li>
+          <li class="main-nav__item">
+            <a class="main-nav__link" href="https://htmlacademy.ru/">html academy</a>
+          </li>
         </ul>
       </nav>
       <div class="page-header__intro">
@@ -53,8 +65,8 @@
 
                 <!-- Lead -->
 
-      <div class="intro intro--font-light">
-        <p class="page-content__promo">Устали от серости мегаполиса? Нам есть, что предложить вам!</p>
+      <div class="intro intro--font-big">
+        <p class="intro__text">Устали от серости мегаполиса? Нам есть, что предложить вам!</p>
       </div>
 
                 <!-- Features -->
@@ -74,6 +86,17 @@
         </div>
         <img class="features__img" src="img/features-img.png" width="159" height="279" alt="">
       </div>
+
+                <!-- Promo -->
+
+      <section class="promo">
+        <div class="promo__wrapper">
+          <h2 class="promo__title">Эффект на 24 часа!</h2>
+          <p class="promo__text">Британские ученые провели исследования и доказали,
+  что положительный эффект от использования приложения длится целые сутки!</p>
+          <a class="promo__link" href="#">Узнать больше об исследовании</a>
+        </div>
+      </section>
 
                 <!-- Recalls -->
 
@@ -108,11 +131,11 @@
       <div class="price-plan">
 
         <div class="price-plan__item">
-          <table>
+          <table class="price-plan__table">
             <tr>
               <th class="price-plan__header">
-                <b class="price-plan__title">стандарт</b>
-                <b class="price-plan__price">3,99 usd</b>
+                <b class="price-plan__title">база</b>
+                <b class="price-plan__price">1,99 usd</b>
               </th>
             </tr>
             <tr>
@@ -136,51 +159,51 @@
                 <!-- Hide tariffs -->
 
         <div class="price-plan__item">
-          <table>
+          <table class="price-plan__table">
             <tr>
               <th class="price-plan__header">
-                <b class="price-plan__title"></b>
-                <b class="price-plan__price"></b>
+                <b class="price-plan__title">стандарт</b>
+                <b class="price-plan__price">3,99 usd</b>
               </th>
             </tr>
             <tr>
               <td class="price-plan__inner">
-                <span class="price-plan__option"></span>
+                <span class="price-plan__option">розовый фильтр</span>
               </td>
             </tr>
             <tr>
               <td class="price-plan__inner">
-                <span class="price-plan__option"></span>
+                <span class="price-plan__option">смайлики</span>
               </td>
             </tr>
             <tr>
               <td class="price-plan__inner">
-                <span class="price-plan__option"></span>
+                <span class="price-plan__option">комментарии</span>
               </td>
             </tr>
-          </table>
+          </table class="price-plan__table">
         </div>
         <div class="price-plan__item">
-          <table>
+          <table  class="price-plan__table">
             <tr>
               <th class="price-plan__header">
-                <b class="price-plan__title"></b>
-                <b class="price-plan__price"></b>
+                <b class="price-plan__title">анлим</b>
+                <b class="price-plan__price">9,99 usd</b>
               </th>
             </tr>
             <tr>
               <td class="price-plan__inner">
-                <span class="price-plan__option"></span>
+                <span class="price-plan__option">розовый фильтр</span>
               </td>
             </tr>
             <tr>
               <td class="price-plan__inner">
-                <span class="price-plan__option"></span>
+                <span class="price-plan__option">смайлики</span>
               </td>
             </tr>
             <tr>
               <td class="price-plan__inner">
-                <span class="price-plan__option"></span>
+                <span class="price-plan__option">комментарии</span>
               </td>
             </tr>
           </table>

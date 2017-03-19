@@ -1,22 +1,17 @@
-@import "sass/global/fonts.scss";
-@import "sass/variables.scss";
-
 .price-plan {
-  background-color: $price-plan-bg;
+  @include container;
+
+  background-color: #f2f2f2;
+}
+
+.price-plan__table {
+  width: 100%;
 }
 
 .price-plan__header {
-  background-color: $price-header-bg;
-}
-
-.price-plan__title {
-  @include price-title-font;
-}
-
-.price-plan__price {
-  @include price-plan-price-font;
+  background-color: #283645;
 }
 
 .price-plan__inner {
-  background-color: $price-plan-inner-bg;
+  background-color: #fff;
 }

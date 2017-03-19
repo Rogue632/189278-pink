@@ -1,21 +1,19 @@
-.features {
+.promo {
+  display: none;
   width: 280px;
   margin: 0 auto;
   padding: 0 20px;
+  outline: 2px solid black;
 
   @media (min-width: $tablet) {
+    display: block;
     width: 320px;
     padding-left: 320px;
   }
 
   @media (min-width: $desktop) {
-    width: 940px;
+    width: 570px;
     padding: 0 10px;
-  }
-}
-
-.features__inner {
-  @media (min-width: $tablet) {
-    width: 320px;
+    padding-left: 380px;
   }
 }

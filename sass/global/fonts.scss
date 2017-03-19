@@ -1,144 +1,149 @@
-/*body*/
+//body
 
-@mixin body-font {
-  font-weight: $body-fw;
-  font-size: $body-fsize;
-  line-height: $body-lh;
-  font-family: $body-ff;
-  color: $body-color;
+body {
+  @include font-properties(400, 14px, 30px, #283645);
+
+  font-family: "Open Sans", "Arial", sans-serif;
 }
 
+//main-nav
 
-/*main-nav*/
-
-@mixin main-nav-font {
-  font-weight: $main-nav-fw;
-  font-size: $main-nav-fsize;
-  line-height: $main-nav-lh;
+.main-nav {
+  @include font-properties(700, 18px, 32px, #fff);
   text-transform: uppercase;
 }
 
-/*page-title*/
-
-@mixin page-title-font {
-  font-weight: $page-title-fw;
-  font-size: $page-title-fs;
-  line-height: $page-title-lh;
-  color: $page-title-color;
+.main-nav__link {
+  color: $color-white;
 }
 
-/*download*/
+//page-intro
 
-@mixin download-font {
-  font-weight: $download-fw;
-  font-size: $download-fsize;
-  line-height: $download-lh;
-  color: $download-color;
+.page-intro__title {
+  @include font-properties(300, 24px, 28px, #fff);
 }
 
-/*intro*/
+//download
 
-@mixin intro--light-font {
-    font-weight: $intro-fw--l;
-    font-size: $intro-fs--l;
-    line-height: $intro-lh--l;
+.download {
+  @include font-properties(300, 14px, 24px, #fff);
 }
 
-/*features*/
-
-@mixin features-font {
-  line-height: $features-lh;
-  background-color: $features-bg;
+.download__itunes {
+  color: $color-white;
 }
 
-@mixin features-subt-font {
-  font-weight: $features-subtitle-fw;
-  font-size: $features-subtitle-fs;
-  color: $features-subtitle-col;
+//intro
+
+.intro {
+  @include font-properties(400, 14px, 30px, #283645);
 }
 
-/*sliders*/
-
-@mixin slider-author-font {
-  font-weight: $slider-author-fw;
-  font-size: $slider-author-fs;
-  color: $slider-author-color;
+.intro--font-big {
+  @include font-properties(300, 24px, 28px, #283645);
 }
 
-/*price-plan*/
+//features
 
-@mixin price-title-font {
-  font-weight: $price-title-fw;
-  font-size: $price-title-fs;
-  color: $price-title-color;
+.features {
+  line-height: $line-height-small;
+  background-color: #f2f2f2;
+}
+
+.features__subtitle {
+  @include font-properties(700, 18px, 24px, #000);
+}
+
+//sliders
+
+.slider__author {
+  @include font-properties(700, 18px, 30px, #000);
+}
+
+//price-plan
+
+.price-plan__title {
+  @include font-properties(700, 18px, 30px, #fff);
   text-transform: uppercase;
 }
 
-@mixin price-plan-price-font {
-  font-weight: $price-plan-price-fw;
-  font-size: $price-plan-price-fz;
-  color: $price-plan-price-color;
+.price-plan__price {
+  @include font-properties(300, 24px, 30px, #fff);
 }
 
-/*user-photo*/
+//user-photo
 
-@mixin user-photo-author-font {
-  font-weight: $user-photo-autor-fw;
-  line-height: $user-photo-autor-lh;
+.user-photo__author {
+  font-weight: $font-weight-bold;
+  line-height: $line-height-small;
 }
 
-@mixin user-photo-time-font {
-  font-weight: $user-photo-time-fw;
-  font-size: $user-photo-time-fs;
+.user-photo__time {
+  font-weight: $font-weight-light;
+  font-size: 12px;
 }
 
-@mixin user-photo-comment-font {
-  line-height: $user-photo-comment-lh;
+.user-photo__comment {
+  line-height: $line-height-small;
 }
 
-@mixin user-photo-like-font {
-  font-size: $user-photo-like-fs;
-  line-height: $user-photo-like-lh;
-  color: $user-photo-like-col;
+.user-photo__like-counter {
+  @include font-properties(400, 12px, 24px, #d22856);
 }
 
-/*form*/
+//form
 
-@mixin placeholder-font {
-  font-size: $placeholder-fs;
-  line-height: $placeholder-lh;
-  color: $placeholder-color;
-  opacity: 1;
+.form__subtitle {
+  color: #d22856;
+  text-transform: uppercase;
 }
 
-@mixin popup-title-font {
-  font-weight: $popup-title-fw;
-  font-size: $popup-title-fs;
-  line-height: $popup-title-lh;
-  color: $popup-title-color;
+.form__subtitle-value {
+  &::placeholder {
+    @include font-properties(400, 18px, 30px, #283645);
+    opacity: 1;
+  }
 }
 
-/*main-footer*/
-
-@mixin main-footer-title-font {
-  font-weight: $main-footer-title-fw;
-  font-size: $main-footer-title-fs;
-  line-height: $main-footer-title-lh;
+.form__item-title {
+  line-height: 18px;
+  color: $color-red;
 }
 
-@mixin main-footer-subtitle-font {
-  font-weight: $main-footer-subtitle-fw;
-  font-size: $main-footer-subtitle-fs;
-  line-height: $main-footer-subtitle-lh;
+.form__item-descr {
+  font-size: $font-size-normal;
 }
 
-@mixin main-footer-item-font {
-  font-weight: $main-footer-item-fw;
-  font-size: $main-footer-item-fs;
-  line-height: $main-footer-item-lh;
-  color: $main-footer-item-color;
+.form__textarea {
+  &::placeholder {
+  @include font-properties(400, 18px, 30px, #283645);
+  }
 }
 
-@mixin page-footer-copy-font {
-  line-height: $page-footer-copy-lh;
+//popup
+
+.form__popup-title {
+  @include font-properties(700, 18px, 24px, #000);
+}
+
+.form__popup-text {
+  line-height: $line-height-small;
+}
+
+//main-footer
+
+.main-footer__title {
+  @include font-properties(300, 24px, 28px, #283645);
+}
+
+.main-footer__subtitle {
+  @include font-properties(700, 18px, 21px, #283645);
+}
+
+.main-footer__item {
+  @include font-properties(300, 24px, 28px, #d22856);
+}
+
+.page-footer__copyright-text {
+  line-height: 18px;
 }

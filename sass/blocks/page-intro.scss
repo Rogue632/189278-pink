@@ -1,0 +1,4 @@
+.page-intro {
+  @include container;
+  background: $color-darkblue; //временно, что бы было видно текст
+}
