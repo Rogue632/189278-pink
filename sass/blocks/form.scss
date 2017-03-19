@@ -1,0 +1,28 @@
+.form {
+  outline: 1px solid green;
+  @include container;
+}
+
+.form__popup {
+  outline: 1px solid green;
+  width: 280px;
+  margin: 0 auto;
+  padding: 0 20px;
+
+  @media (min-width: $tablet) {
+    width: 320px;
+    padding: 0 70px;
+  }
+
+  @media (min-width: $desktop) {
+    width: 780px;
+    padding: 0;
+  }
+}
+
+.form__popup--error {
+  @media (min-width: $desktop) {
+    width: 320px;
+    padding: 0 70px;
+  }
+}
